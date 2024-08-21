@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fondo {
+  height: 100vh;
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipOeV_vXYlUD9d56j9yb7oXVk5W-2IDRS7tBclXe=s680-w680-h510);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#fondo h1 {
+  color: rgb(11, 22, 43);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 70px;
+}
+
+
+
+body {
+  font-family: fantasy;
+  background-color: whitesmoke;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: visible;
+}
+
+/* Encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(20, 135, 211);
+  color: rgb(110, 114, 110);
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Contenedor principal */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  padding: 10px;
+  margin: 15px;
+}
+
+.content-box1 {
+  background-color: rgb(66, 148, 180);
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px whitesmoke;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.content-box2 {
+  background-color: rgb(180, 127, 66);
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px whitesmoke;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.content-box3 {
+  background-color: rgb(180, 66, 142);
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px whitesmoke;
+  border-radius: 15px;
+  margin: 5px;
+}
+.content-box4 {
+  background-color: rgb(71, 204, 104);
+  padding: 20px;
+  width: 45%;
+  box-shadow: 0 4px 8px whitesmoke;
+  border-radius: 15px;
+  margin: 5px;
+}
+/* Barra lateral */
+.sidebar {
+  background-color: #675d96;
+  padding: 10px;
+  width: 100%;
+  margin-left: 20px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+/* Pie de página */
+.footer {
+  background-color: #106292;
+  color: rgb(11, 22, 43);
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
